@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 10:05:45 AM"/>
+        <attribute name="created" value="UmFtcztERVNLVE9QLVNSRUdKNTE7MjAxOS0xMC0yNTswOTozMzoxNiBBTTsyNzM4"/>
+        <attribute name="edited" value="UmFtcztERVNLVE9QLVNSRUdKNTE7MjAxOS0xMC0yNTsxMDowNTo0NSBBTTsxOzI4Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Welcome to my program that will add 2 number&quot;" newline="True"/>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <output expression="&quot;Please enter the value of your 1st Variable&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Please Enter the value of your 2nd Variable&quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;Sum of A and B is &quot;" newline="False"/>
+            <declare name="Sum" type="Integer" array="False" size=""/>
+            <assign variable="Sum" expression="A+B"/>
+            <output expression="Sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
